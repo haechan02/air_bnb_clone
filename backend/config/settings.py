@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 CUSTOM_APPS = [
+    "bookings.apps.BookingsConfig",
     "wishlists.apps.WishlistsConfig",
     "reviews.apps.ReviewsConfig",
     "categories.apps.CategoriesConfig",
